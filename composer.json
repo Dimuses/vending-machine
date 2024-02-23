@@ -1,0 +1,27 @@
+{
+    "name": "dimuses/vending-machine",
+    "description": "Description of your project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dnitro Savenko",
+            "email": "dev.dimus.88@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/console": "^6.4",
+        "symfony/config": "^6.4",
+        "symfony/dependency-injection": "^6.4",
+        "symfony/yaml": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
