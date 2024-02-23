@@ -15,4 +15,4 @@ Products available for purchase include Coca-cola, Snickers, and Lay's. The appl
 Execute the application with the following command:
 
 ```bash
-php console.php app:buy-product
+php index.php app:buy-product
